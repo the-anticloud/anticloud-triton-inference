@@ -1,0 +1,145 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:7343c53e-5461-5bb5-b55c-0ba371d7a6fd",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T17:32:32Z",
+  "component": {
+   "type": "application",
+   "name": "TRITON_INFERENCE",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/TRITON_INFERENCE@83b357604d34",
+   "purl": "pkg:generic/anticloud/TRITON_INFERENCE@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-3-Clause"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "CUDAToolkit",
+   "version": "unspecified",
+   "purl": "pkg:generic/CUDAToolkit",
+   "bom-ref": "native/CUDAToolkit@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "Libevent",
+   "version": "unspecified",
+   "purl": "pkg:generic/Libevent",
+   "bom-ref": "native/Libevent@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "absl",
+   "version": "unspecified",
+   "purl": "pkg:generic/absl",
+   "bom-ref": "native/absl@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "CURL",
+   "version": "unspecified",
+   "purl": "pkg:generic/CURL",
+   "bom-ref": "native/CURL@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "nlohmann_json",
+   "version": "unspecified",
+   "purl": "pkg:generic/nlohmann_json",
+   "bom-ref": "native/nlohmann_json@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "opentelemetry-cpp",
+   "version": "unspecified",
+   "purl": "pkg:generic/opentelemetry-cpp",
+   "bom-ref": "native/opentelemetry-cpp@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "re2",
+   "version": "unspecified",
+   "purl": "pkg:generic/re2",
+   "bom-ref": "native/re2@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "Protobuf",
+   "version": "unspecified",
+   "purl": "pkg:generic/Protobuf",
+   "bom-ref": "native/Protobuf@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "gRPC",
+   "version": "unspecified",
+   "purl": "pkg:generic/gRPC",
+   "bom-ref": "native/gRPC@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "libevhtp",
+   "version": "unspecified",
+   "purl": "pkg:generic/libevhtp",
+   "bom-ref": "native/libevhtp@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "GTest",
+   "version": "unspecified",
+   "purl": "pkg:generic/GTest",
+   "bom-ref": "native/GTest@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "tritonserver",
+   "version": "unspecified",
+   "purl": "pkg:pypi/tritonserver",
+   "bom-ref": "pypi/tritonserver@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": "==2.10.6",
+   "purl": "pkg:pypi/pydantic@2.10.6",
+   "bom-ref": "pypi/pydantic@==2.10.6"
+  },
+  {
+   "type": "library",
+   "name": "mlflow",
+   "version": ">=2.2.1,<3.0",
+   "purl": "pkg:pypi/mlflow@2.2.1,<3.0",
+   "bom-ref": "pypi/mlflow@>=2.2.1,<3.0"
+  },
+  {
+   "type": "library",
+   "name": "triton",
+   "version": "=mlflow_triton.deployments",
+   "purl": "pkg:pypi/triton@mlflow_triton.deployments",
+   "bom-ref": "pypi/triton@=mlflow_triton.deployments"
+  }
+ ],
+ "sha_unverified": true
+}
